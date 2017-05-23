@@ -1,0 +1,101 @@
+.navbar-inverse {
+  background: rgba(53, 68, 88, 0.8);
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+  color: white;
+  cursor: pointer;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav>li>a:hover {
+  color: #eee;
+}
+#PlacesAutocomplete__root {
+  z-index: 1000;
+}
+.loading-overlay {
+  position: absolute;
+  height: 100%;
+  text-align:center;
+  z-index: 1000;
+}
+/* side panel */
+.side-panel {
+  position: absolute;
+  width: 250px;
+  z-index: 1000;
+  background: rgba(255,255,255,0.8);
+  margin-top: 60px;
+  margin-left: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px #999;
+  padding: 10px;
+}
+.glyphicon-remove, .glyphicon-resize-full {
+  position:absolute;
+  margin-right:-10px;
+  margin-top: -5px;
+  right:0;
+  background: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: thin #333 solid;
+}
+.side-panel h1 {
+  margin: 0; padding: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+.side-panel p {
+  font-size: 11px;
+  margin-top: 10px;
+}
+.side-panel .selections {
+  font-size: 12px;
+}
+.side-panel .notes {
+  font-size: 12px;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.side-panel .select-specific {
+  margin-top: 10px;
+}
+.reset-map {
+  position: absolute;
+  z-index: 1000;
+  background: rgba(255,255,255,1);
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px #999;
+  margin-right: 50px;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  margin-bottom: 30px;
+  padding: 6px;
+  font-size: 12px;
+}
+.reset-map:hover {
+  text-decoration: underline;
+}
+/* search */
+.dropdown-results {
+  position:absolute;
+  z-index:1000;
+  box-shadow: 2px 2px 2px #ccc;
+  width: 90%;
+  background: white;
+  border-radius: 5px;
+}
+.dropdown-results ul {
+  padding: 0px;
+  list-style-type: none;
+}
+.dropdown-results ul li {
+  padding: 5px;
+}
+.dropdown-results ul li:hover {
+  padding: 5px;
+  cursor: pointer;
+  background: #eee;
+}
